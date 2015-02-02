@@ -44,8 +44,16 @@ public class LdapUsersProviderTest {
 
   @Test
   public void test() throws Exception {
+	/**
+	 *  Generate simple settings for 2 ldap servers that allows anonymous access.
+	 * ***/ 
     Settings settings = LdapSettingsFactory.generateSimpleAnonymousAccessSettings(exampleServer, infosupportServer);
+    
+    /**
+     * Create an instance of the settings manager.
+     * ****/
     LdapSettingsManager settingsManager = new LdapSettingsManager(settings, new LdapAutodiscovery());
+    
     LdapUsersProvider usersProvider = new LdapUsersProvider(settingsManager.getContextFactories(), settingsManager.getUserMappings());
 
     UserDetails details;
