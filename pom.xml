@@ -6,8 +6,8 @@
 <!--     <artifactId>parent</artifactId> -->
 <!--     <version>19</version> -->
 <!--   </parent> -->
-<groupId>org.codehaus.sonar-plugins</groupId>
-  <artifactId>sonar-custom-plugins-ldap</artifactId>
+ <groupId>org.codehaus.sonar-plugins</groupId>
+  <artifactId>iisi-sonar-custom-plugins-ldap</artifactId>
   <version>1.5-SNAPSHOT</version>
   <packaging>sonar-plugin</packaging>
 
