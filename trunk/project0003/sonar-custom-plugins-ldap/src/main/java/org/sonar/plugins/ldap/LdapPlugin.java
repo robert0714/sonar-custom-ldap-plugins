@@ -27,10 +27,12 @@ import java.util.List;
 
 /**
  * @author Evgeny Mandrikov
+ * sonar plugin 主體
  */
 public class LdapPlugin extends SonarPlugin {
 
   public List getExtensions() {
+	  //回傳交代有哪些版面
     return ImmutableList.of(LdapRealm.class,
       LdapSettingsManager.class,
       LdapAutodiscovery.class);
