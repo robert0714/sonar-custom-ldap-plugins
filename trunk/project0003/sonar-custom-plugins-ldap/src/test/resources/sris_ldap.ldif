@@ -1,0 +1,1215 @@
+dn: ou=team,dc=ris3,
+ou: team
+objectClass: organizationalUnit
+
+dn: ou=ape, ou=team,dc=ris3,
+ou: ape
+objectClass: organizationalUnit
+description: 系統技術組
+
+dn: cn=scsi,ou=ape, ou=team,dc=ris3,
+givenName: 勇洲
+mobile: 0919886801
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+shadowLastChange: 15833
+userPassword: [B@17f052a3
+ou: 系統技術組
+uid: scsi
+mail: yc.chen@iisigroup.com
+uidNumber: 2000
+cn: scsi
+telephoneNumber: 0289691969-3132
+loginShell: /bin/bash
+gidNumber: 2001
+jpegPhoto: [B@2e0fa5d3
+gecos: 陳勇洲
+homeDirectory: /home/scsi
+sn: 陳
+title: 工程師
+
+dn: cn=risdevp,ou=ape, ou=team,dc=ris3,
+mail: risdevp@gmail.com
+userPassword: [B@5010be6
+uid: risdevp
+givenName: 專案帳號
+objectClass: person
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+sn: 預設
+cn: risdevp
+
+dn: cn=ericetseng,ou=ape, ou=team,dc=ris3,
+mobile: 0975421922
+givenName: 怡華
+telephoneNumber: 0000
+sn: 曾
+userPassword: [B@685f4c2e
+loginShell: /bin/bash
+uidNumber: 2059
+gidNumber: 2001
+mail: erice.tseng@gmail.com
+uid: ericetseng
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 曾怡華
+shadowLastChange: 15195
+title: 工程師
+cn: ericetseng
+homeDirectory: /home/ericetseng
+
+dn: ou=aw, ou=team,dc=ris3,
+ou: aw
+objectClass: organizationalUnit
+description: 全球資訊網
+
+dn: ou=gm, ou=team,dc=ris3,
+ou: gm
+objectClass: organizationalUnit
+description: 專案管理
+
+dn: cn=annietsai,ou=gm, ou=team,dc=ris3,
+mobile: 0939777928
+givenName: 宜蓉
+telephoneNumber: 89691969-3133
+sn: 蔡
+userPassword: [B@7daf6ecc
+loginShell: /bin/bash
+uidNumber: 2006
+gidNumber: 2005
+mail: annie.tsai@iisigroup.com
+uid: annietsai
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 蔡宜蓉
+shadowLastChange: 15209
+title: 無
+cn: annietsai
+homeDirectory: /home/annietsai
+
+dn: cn=joeytsou,ou=gm, ou=team,dc=ris3,
+mobile: 0968288330
+givenName: 君儀
+telephoneNumber: 89691969-3137
+sn: 鄒
+userPassword: [B@2e5d6d97
+loginShell: /bin/bash
+uidNumber: 2008
+gidNumber: 2005
+mail: joey.tsou@iisigroup.com
+uid: joeytsou
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 鄒君儀
+shadowLastChange: 15210
+title: 無
+cn: joeytsou
+homeDirectory: /home/joeytsou
+
+dn: ou=db, ou=team,dc=ris3,
+ou: db
+objectClass: organizationalUnit
+description: 資料建置組
+
+dn: cn=alexcho,ou=db, ou=team,dc=ris3,
+mobile: 0939941903
+givenName: 嘉國
+telephoneNumber: 89691969-3113
+sn: 卓
+userPassword: [B@238e0d81
+loginShell: /bin/bash
+uidNumber: 2009
+gidNumber: 2006
+mail: alex.cho@iisigroup.com
+uid: alexcho
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 卓嘉國
+shadowLastChange: 15177
+title: 副工程師
+cn: alexcho
+homeDirectory: /home/alexcho
+
+dn: cn=shienyenchou,ou=db, ou=team,dc=ris3,
+mobile: 0928835134
+givenName: 賢晏
+telephoneNumber: 89691969-2631
+sn: 周
+userPassword: [B@31221be2
+loginShell: /bin/bash
+uidNumber: 2010
+gidNumber: 2006
+mail: shienyen.chou@iisigroup.com
+uid: shienyenchou
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 周賢晏
+shadowLastChange: 15161
+title: 副工程師
+cn: shienyenchou
+homeDirectory: /home/shienyenchou
+
+dn: cn=cmlu,ou=db, ou=team,dc=ris3,
+mobile: 0000000000
+givenName: 炯明
+telephoneNumber: 89691969-3115
+sn: 呂
+userPassword: [B@377dca04
+loginShell: /bin/bash
+uidNumber: 2022
+gidNumber: 2006
+mail: cm.lu@iisigroup.com
+uid: cmlu
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 呂炯明
+shadowLastChange: 16177
+title: 經理
+cn: cmlu
+homeDirectory: /home/cmlu
+
+dn: ou=sp, ou=team,dc=ris3,
+ou: sp
+objectClass: organizationalUnit
+description: 網站開發組
+
+dn: cn=jeremychang,ou=sp, ou=team,dc=ris3,
+mobile: 091095670
+givenName: 家銘
+telephoneNumber: 89691969-3150
+sn: 張
+userPassword: [B@728938a9
+loginShell: /bin/bash
+uidNumber: 2020
+gidNumber: 2008
+mail: jeremy.chang@iisigroup.com
+uid: jeremychang
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 張家銘
+shadowLastChange: 15160
+title: 工程師
+cn: jeremychang
+homeDirectory: /home/jeremychang
+
+dn: ou=so, ou=team,dc=ris3,
+ou: so
+objectClass: organizationalUnit
+description: 資訊安全組
+
+dn: cn=ericchen,ou=so, ou=team,dc=ris3,
+mobile: 0926315660
+givenName: 崇銘
+telephoneNumber: 89691969-3122
+sn: 陳
+userPassword: [B@21b8d17c
+loginShell: /bin/bash
+uidNumber: 2012
+gidNumber: 2009
+mail: eric.chen@iisigroup.com
+uid: ericchen
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 陳崇銘
+shadowLastChange: 15176
+title: 工程師
+cn: ericchen
+homeDirectory: /home/ericchen
+
+dn: ou=hd, ou=team,dc=ris3,
+ou: hd
+objectClass: organizationalUnit
+description: 服務支援組
+
+dn: cn=boulanchiu,ou=hd, ou=team,dc=ris3,
+mobile: 0932251726
+givenName: 寶蘭
+telephoneNumber: 89691969-3102
+sn: 邱
+userPassword: [B@6433a2
+loginShell: /bin/bash
+uidNumber: 2011
+gidNumber: 2010
+mail: boulan.chiu@iisigroup.com
+uid: boulanchiu
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 邱寶蘭
+title: 工程師
+cn: boulanchiu
+homeDirectory: /home/boulanchiu
+
+dn: ou=rd, ou=team,dc=ris3,
+ou: rd
+objectClass: organizationalUnit
+description: 連結應用組
+
+dn: cn=frankkuo,ou=rd, ou=team,dc=ris3,
+mobile: 0933913876
+givenName: 宏傑
+telephoneNumber: 89691969-1602
+sn: 郭
+userPassword: [B@5910e440
+loginShell: /bin/bash
+uidNumber: 2062
+gidNumber: 2011
+mail: frank.kuo@iisigroup.com
+uid: frankkuo
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 郭宏傑
+shadowLastChange: 15203
+title: 正工程師
+cn: frankkuo
+homeDirectory: /home/frankkuo
+
+dn: ou=msd, ou=team,dc=ris3,
+ou: msd
+objectClass: organizationalUnit
+description: 役政組
+
+dn: cn=lin995,ou=msd, ou=team,dc=ris3,
+mobile: 0952487371
+givenName: 為杰
+telephoneNumber: 89691969-3118
+sn: 林
+userPassword: [B@6267c3bb
+loginShell: /bin/bash
+uidNumber: 2027
+gidNumber: 2012
+mail: lin995@gmail.com
+uid: lin995
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 林為杰
+shadowLastChange: 15167
+title: 工程師
+cn: lin995
+homeDirectory: /home/lin995
+
+dn: cn=lavinwu,ou=msd, ou=team,dc=ris3,
+mobile: 0917551492
+givenName: 麗紅
+telephoneNumber: 89691969-3219
+sn: 吳
+userPassword: [B@533ddba
+loginShell: /bin/bash
+uidNumber: 2028
+gidNumber: 2012
+mail: lavin.wu@iisigroup.com
+uid: lavinwu
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 吳麗紅
+shadowLastChange: 15166
+title: 工程師
+cn: lavinwu
+homeDirectory: /home/lavinwu
+
+dn: ou=rsd, ou=team,dc=ris3,
+ou: rsd
+objectClass: organizationalUnit
+description: 戶政組
+
+dn: cn=shuyichang,ou=rsd, ou=team,dc=ris3,
+mobile: 0000000000
+givenName: 淑誼
+telephoneNumber: 89691969-3128
+sn: 張
+userPassword: [B@246b179d
+loginShell: /bin/bash
+uidNumber: 2030
+gidNumber: 2013
+mail: shuyi.chang@iisigroup.com
+uid: shuyichang
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 張淑誼
+shadowLastChange: 15167
+title: 工程師
+cn: shuyichang
+homeDirectory: /home/shuyichang
+
+dn: cn=jamestu,ou=rsd, ou=team,dc=ris3,
+mobile: 0000000000
+givenName: 宗達
+telephoneNumber: 89691969-3121
+sn: 杜
+userPassword: [B@7a07c5b4
+loginShell: /bin/bash
+uidNumber: 2032
+gidNumber: 2013
+mail: james.tu@iisigroup.com
+uid: jamestu
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 杜宗達
+shadowLastChange: 15167
+title: 工程師
+cn: jamestu
+homeDirectory: /home/jamestu
+
+dn: cn=irenelin,ou=rsd, ou=team,dc=ris3,
+mobile: 0000000000
+givenName: 亭儀
+telephoneNumber: 89691969-3144
+sn: 林
+userPassword: [B@26a1ab54
+loginShell: /bin/bash
+uidNumber: 2033
+gidNumber: 2013
+mail: irene.lin@iisigroup.com
+uid: irenelin
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 林亭儀
+shadowLastChange: 15166
+title: 工程師
+cn: irenelin
+homeDirectory: /home/irenelin
+
+dn: cn=josephlu,ou=rsd, ou=team,dc=ris3,
+mobile: 0958155511
+givenName: 逸文
+telephoneNumber: 89691969-2101
+sn: 盧
+userPassword: [B@3d646c37
+loginShell: /bin/bash
+uidNumber: 2034
+gidNumber: 2013
+mail: joseph.lu@iisigroup.com
+uid: josephlu
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 盧逸文
+shadowLastChange: 15167
+title: 工程師
+cn: josephlu
+homeDirectory: /home/josephlu
+
+dn: cn=unischan,ou=rsd, ou=team,dc=ris3,
+mobile: 0921944292
+givenName: 月嬌
+telephoneNumber: 89691969-1906
+sn: 詹
+userPassword: [B@41cf53f9
+loginShell: /bin/bash
+uidNumber: 2038
+gidNumber: 2013
+mail: chan.unis@gmail.com
+uid: unischan
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 詹月嬌
+shadowLastChange: 15167
+title: 工程師
+cn: unischan
+homeDirectory: /home/unischan
+
+dn: cn=andyjjt,ou=rsd, ou=team,dc=ris3,
+mobile: 0970188299
+givenName: 吉堂
+telephoneNumber: 89691969-4345
+sn: 曾
+userPassword: [B@5a10411
+loginShell: /bin/bash
+uidNumber: 2040
+gidNumber: 2013
+mail: andyjjt@gmail.com
+uid: andyjjt
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 曾吉堂
+shadowLastChange: 15167
+title: 工程師
+cn: andyjjt
+homeDirectory: /home/andyjjt
+
+dn: cn=vivahong,ou=rsd, ou=team,dc=ris3,
+mobile: 0987-443903
+givenName: 楷智
+telephoneNumber: 89691969-8517
+sn: 洪
+userPassword: [B@2ef1e4fa
+loginShell: /bin/bash
+uidNumber: 2049
+gidNumber: 2013
+mail: viva.hong@frog-jump.com
+uid: vivahong
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 洪楷智
+shadowLastChange: 15169
+title: 工程師
+cn: vivahong
+homeDirectory: /home/vivahong
+
+dn: cn=daxiong0316,ou=rsd, ou=team,dc=ris3,
+mobile: 0975-130777
+givenName: 正雄
+telephoneNumber: 89691969-4310
+sn: 劉
+userPassword: [B@306a30c7
+loginShell: /bin/bash
+uidNumber: 2054
+gidNumber: 2013
+mail: daxiong0316@gmail.com
+uid: daxiong0316
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 劉正雄
+shadowLastChange: 15184
+title: 工程師
+cn: daxiong0316
+homeDirectory: /home/daxiong0316
+
+dn: cn=joyceko,ou=gm, ou=team,dc=ris3,
+mobile: 0000000000
+givenName: 姵如
+telephoneNumber: 89691969
+sn: 柯
+userPassword: [B@b81eda8
+loginShell: /bin/bash
+uidNumber: 2081
+gidNumber: 2005
+mail: joyce.ko@iisigroup.com
+uid: joyceko
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 柯姵如
+shadowLastChange: 15253
+title: 工程師
+cn: joyceko
+homeDirectory: /home/joyceko
+
+dn: cn=a0939901781,ou=msd, ou=team,dc=ris3,
+mobile: 0912862352
+givenName: 旻達
+telephoneNumber: 89691969-3219
+sn: 謝
+userPassword: [B@68de145
+loginShell: /bin/bash
+uidNumber: 2084
+gidNumber: 2012
+mail: a0939901781@gmail.com
+uid: a0939901781
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 謝旻達
+shadowLastChange: 15253
+title: 工程師
+cn: a0939901781
+homeDirectory: /home/a0939901781
+
+dn: ou=fw, ou=team,dc=ris3,
+ou: fw
+description: 線上簽核系統
+objectClass: organizationalUnit
+
+dn: cn=jeremy1231,ou=rsd, ou=team,dc=ris3,
+mobile: 0970855853
+givenName: 建龍
+telephoneNumber: 89691969
+sn: 陳
+userPassword: [B@27fa135a
+loginShell: /bin/bash
+uidNumber: 2092
+gidNumber: 2013
+mail: Jeremy1231@gmail.com
+uid: jeremy1231
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 陳建龍
+shadowLastChange: 15279
+title: 工程師
+cn: jeremy1231
+homeDirectory: /home/jeremy1231
+
+dn: cn=raysamwang,ou=aw, ou=team,dc=ris3,
+mobile: 0934168671
+givenName: 瑞賢
+telephoneNumber: 89691969-3157
+sn: 王
+userPassword: [B@46f7f36a
+loginShell: /bin/bash
+uidNumber: 2095
+gidNumber: 2004
+mail: raysam.wang@gmail.com
+uid: raysamwang
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 王瑞賢
+title: 工程師
+cn: raysamwang
+homeDirectory: /home/raysamwang
+
+dn: cn=andytsai,ou=rsd, ou=team,dc=ris3,
+mobile: 0973-305183
+givenName: 亞忠
+telephoneNumber: 89691969
+sn: 蔡
+userPassword: [B@421faab1
+loginShell: /bin/bash
+uidNumber: 2105
+gidNumber: 2013
+mail: andy.tsai@iisigroup.com
+uid: andytsai
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 蔡亞忠
+shadowLastChange: 15292
+title: 工程師
+cn: andytsai
+homeDirectory: /home/andytsai
+
+dn: cn=bg007comtw,ou=rsd, ou=team,dc=ris3,
+mobile: 0932-212604
+givenName: 為仁
+telephoneNumber: 89691969
+sn: 鄭
+userPassword: [B@2b71fc7e
+loginShell: /bin/bash
+uidNumber: 2110
+gidNumber: 2013
+mail: bg007comtw@gmail.com
+uid: bg007comtw
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 鄭為仁
+title: 工程師
+cn: bg007comtw
+homeDirectory: /home/bg007comtw
+
+dn: cn=bracktw,ou=msd, ou=team,dc=ris3,
+mobile: 0935001051
+givenName: 旻憲
+telephoneNumber: 89691969-8601
+sn: 謝
+userPassword: [B@5ce65a89
+loginShell: /bin/bash
+uidNumber: 2111
+gidNumber: 2012
+mail: brack.tw@gmail.com
+uid: bracktw
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 謝旻憲
+shadowLastChange: 15307
+title: 工程師
+cn: bracktw
+homeDirectory: /home/bracktw
+
+dn: cn=skyline9136,ou=rsd, ou=team,dc=ris3,
+mobile: 0988-125-276
+givenName: 富傑
+telephoneNumber: 89691969-8535
+sn: 甘
+userPassword: [B@25f38edc
+loginShell: /bin/bash
+uidNumber: 2112
+gidNumber: 2001
+mail: skyline9136@gmail.com
+uid: skyline9136
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 甘富傑
+shadowLastChange: 15309
+cn: skyline9136
+title: 工程師
+homeDirectory: /home/skyline9136
+
+dn: cn=dan_tsai,ou=rsd, ou=team,dc=ris3,
+mobile: 0932-050661
+givenName: 豐澤
+telephoneNumber: 89691969
+sn: 蔡
+userPassword: [B@1a86f2f1
+loginShell: /bin/bash
+uidNumber: 2113
+gidNumber: 2013
+mail: dan.tsai0509@gmail.com
+uid: dan_tsai
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 蔡豐澤
+shadowLastChange: 15321
+title: 工程師
+cn: dan_tsai
+homeDirectory: /home/dan_tsai
+
+dn: cn=tyng,ou=msd, ou=team,dc=ris3,
+mobile: 0910150263
+givenName: 冠霆
+telephoneNumber: 89691969-3232
+sn: 吳
+userPassword: [B@3eb07fd3
+loginShell: /bin/bash
+uidNumber: 2124
+gidNumber: 2012
+mail: tyng@welldone-info.com.tw
+uid: tyng
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 吳冠霆
+shadowLastChange: 15348
+title: 工程師
+cn: tyng
+homeDirectory: /home/tyng
+
+dn: cn=jackeywu,ou=msd, ou=team,dc=ris3,
+mobile: 0987372125
+givenName: 建志
+telephoneNumber: 89691969-4330
+sn: 吳
+userPassword: [B@506c589e
+loginShell: /bin/bash
+uidNumber: 2127
+gidNumber: 2012
+mail: jackey.wu@iisigroup.com
+uid: jackeywu
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 吳建志
+shadowLastChange: 15358
+title: 工程師
+cn: jackeywu
+homeDirectory: /home/jackeywu
+
+dn: cn=yucunlo,ou=rd, ou=team,dc=ris3,
+mobile: 0931887816
+givenName: 育欽
+telephoneNumber: 89691969-4370
+sn: 羅
+userPassword: [B@69d0a921
+loginShell: /bin/bash
+uidNumber: 2147
+gidNumber: 2011
+mail: yucun.lo@iisigroup.com
+uid: yucunlo
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 羅育欽
+title: 工程師
+cn: yucunlo
+homeDirectory: /home/yucunlo
+
+dn: cn=ewqscxz078,ou=rsd, ou=team,dc=ris3,
+mobile: 0929093220
+givenName: 正祥
+telephoneNumber: 89691969
+sn: 邱
+userPassword: [B@446cdf90
+loginShell: /bin/bash
+uidNumber: 2148
+gidNumber: 2013
+mail: ewqscxz078@gmail.com
+uid: ewqscxz078
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 邱正祥
+shadowLastChange: 15441
+title: 工程師
+cn: ewqscxz078
+homeDirectory: /home/ewqscxz078
+
+dn: cn=dannybit,ou=rsd, ou=team,dc=ris3,
+mobile: 0986964372
+givenName: 文益
+telephoneNumber: 89691969
+sn: 張
+userPassword: [B@799f7e29
+loginShell: /bin/bash
+uidNumber: 2159
+gidNumber: 2013
+mail: dannybit@gmail.com
+uid: dannybit
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 張文益
+shadowLastChange: 15495
+title: 工程師
+cn: dannybit
+homeDirectory: /home/dannybit
+
+dn: cn=lhao825,ou=rd, ou=team,dc=ris3,
+mobile: 0919914803
+givenName: 俊澔
+telephoneNumber: 89691969-3160
+sn: 李
+userPassword: [B@4b85612c
+loginShell: /bin/bash
+gidNumber: 2011
+uidNumber: 2189
+mail: lhao825@gmail.com
+uid: lhao825
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 李俊澔
+title: 工程師
+cn: lhao825
+homeDirectory: /home/lhao825
+
+dn: cn=wako631019,ou=db, ou=team,dc=ris3,
+mobile: 000000000
+givenName: 智遠
+telephoneNumber: 89691969-3196
+sn: 詹
+userPassword: [B@277050dc
+loginShell: /bin/bash
+uidNumber: 2200
+gidNumber: 2006
+mail: wako631019@gmail.com
+uid: wako631019
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 詹智遠
+shadowLastChange: 15581
+title: 00
+cn: wako631019
+homeDirectory: /home/wako631019
+
+dn: cn=edithlove711,ou=fw, ou=team,dc=ris3,
+mobile: 0972799577
+givenName: 悅綸
+telephoneNumber: 89691969-4364
+sn: 黃
+userPassword: [B@5c29bfd
+loginShell: /bin/bash
+uidNumber: 2205
+gidNumber: 2016
+mail: edithlove711@gmail.com
+uid: edithlove711
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 黃悅綸
+shadowLastChange: 15642
+title: 工程師
+cn: edithlove711
+homeDirectory: /home/edithlove711
+
+dn: cn=cnpeng,ou=sp, ou=team,dc=ris3,
+mobile: 0937160952
+givenName: 欽楠
+telephoneNumber: 89691969-3107
+sn: 彭
+userPassword: [B@7aec35a
+loginShell: /bin/bash
+uidNumber: 2208
+gidNumber: 2008
+mail: cn.peng@iisigroup.com
+uid: cnpeng
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 彭欽楠
+shadowLastChange: 15847
+title: 組長
+cn: cnpeng
+homeDirectory: /home/cnpeng
+
+dn: cn=alexhsu,ou=rsd, ou=team,dc=ris3,
+mobile: 0934253889
+givenName: 維鴻
+telephoneNumber: 89691969-3124
+sn: 徐
+userPassword: [B@67424e82
+loginShell: /bin/bash
+uidNumber: 2210
+gidNumber: 2013
+mail: alex.hsu@iisigroup.com
+uid: alexhsu
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 徐維鴻
+shadowLastChange: 15943
+title: 助理工程師
+cn: alexhsu
+homeDirectory: /home/alexhsu
+
+dn: cn=y480915,ou=rsd, ou=team,dc=ris3,
+mobile: 89691969
+givenName: 建仁
+telephoneNumber: 89691969
+sn: 張
+userPassword: [B@42110406
+loginShell: /bin/bash
+uidNumber: 2212
+gidNumber: 2013
+mail: y480915@gmail.com
+uid: y480915
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 張建仁
+shadowLastChange: 16001
+title: 工程師
+cn: y480915
+homeDirectory: /home/y480915
+
+dn: cn=peijunjian,ou=msd, ou=team,dc=ris3,
+mobile: 0970778083
+givenName: 珮珺
+telephoneNumber: 89691969-3180
+sn: 簡
+userPassword: [B@531d72ca
+loginShell: /bin/bash
+uidNumber: 2213
+gidNumber: 2012
+mail: peijun.jian@iisigroup.com
+uid: peijunjian
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 簡珮珺
+shadowLastChange: 16020
+title: 工程師
+cn: peijunjian
+homeDirectory: /home/peijunjian
+
+dn: cn=yichenchiang,ou=msd, ou=team,dc=ris3,
+mobile: 0923528080
+givenName: 宜臻
+telephoneNumber: 89691969-3153
+sn: 江
+userPassword: [B@22d8cfe0
+loginShell: /bin/bash
+uidNumber: 2215
+gidNumber: 2012
+mail: yichen.chiang@iisigroup.com
+uid: yichenchiang
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 江宜臻
+shadowLastChange: 16020
+title: 工程師
+cn: yichenchiang
+homeDirectory: /home/yichenchiang
+
+dn: cn=cftsai,ou=ape, ou=team,dc=ris3,
+mobile: 0919258720
+givenName: 奇峰
+sn: 蔡
+telephoneNumber: 89691969
+userPassword: [B@579bb367
+loginShell: /bin/bash
+gidNumber: 2001
+uidNumber: 2163
+mail: cf.tsai@iisigroup.com
+uid: cftsai
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 蔡奇峰
+shadowLastChange: 15503
+title: 工程師
+cn: cftsai
+homeDirectory: /home/cftsai
+
+dn: cn=sean7255,ou=ape, ou=team,dc=ris3,
+mobile: 0955-976262
+givenName: 俊堯
+sn: 黃
+telephoneNumber: 89691969
+userPassword: [B@1de0aca6
+loginShell: /bin/bash
+uidNumber: 2204
+gidNumber: 2013
+mail: sean7255@gmail.com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+uid: sean7255
+gecos: 黃俊堯
+shadowLastChange: 15628
+cn: sean7255
+title: 工程師
+homeDirectory: /home/sean7255
+
+dn: cn=pei2900,ou=rsd, ou=team,dc=ris3,
+mobile: 0911708638
+givenName: 珮菁
+telephoneNumber: 89691969-3130
+sn: 紀
+userPassword: [B@255316f2
+loginShell: /bin/bash
+uidNumber: 2216
+gidNumber: 2013
+mail: pei2900@gmail.com
+uid: pei2900
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 紀珮菁
+shadowLastChange: 16120
+title: SA
+cn: pei2900
+homeDirectory: /home/pei2900
+
+dn: cn=robertlee,ou=ape, ou=team,dc=ris3,
+mobile: 0920030309
+givenName: 建德
+sn: 李
+telephoneNumber: 89691969
+userPassword: [B@41906a77
+loginShell: /bin/bash
+gidNumber: 2001
+uidNumber: 2150
+mail: robert.lee@iisigroup.com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+uid: robertlee
+gecos: 李建德
+shadowLastChange: 15446
+cn: robertlee
+title: 工程師
+homeDirectory: /home/robertlee
+
+dn: cn=pylin,ou=rsd, ou=team,dc=ris3,
+mobile: 0939841841
+givenName: 佩瑛
+telephoneNumber: 89691969-3120
+sn: 林
+userPassword: [B@4b9af9a9
+loginShell: /bin/bash
+uidNumber: 2219
+gidNumber: 2013
+mail: py.lin@iisigroup.com
+uid: pylin
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 林佩瑛
+title: 諮詢工程師
+cn: pylin
+homeDirectory: /home/pylin
+
+dn: cn=chien_nanchen,ou=rd, ou=team,dc=ris3,
+mobile: 0910920013
+givenName: 建男
+telephoneNumber: 89691969-2630
+sn: 陳
+userPassword: [B@5387f9e0
+loginShell: /bin/bash
+uidNumber: 2221
+gidNumber: 2011
+mail: chien_nan.chen@iisigroup.com
+uid: chien_nanchen
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 陳建男
+title: 工程師
+cn: chien_nanchen
+homeDirectory: /home/chien_nanchen
+
+dn: cn=jonlin,ou=so, ou=team,dc=ris3,
+mobile: 0919509349
+givenName: 威仲
+telephoneNumber: 89691969-3206
+sn: 林
+userPassword: [B@6e5e91e4
+loginShell: /bin/bash
+uidNumber: 2222
+gidNumber: 2009
+mail: jon.lin@iisigroup.com
+uid: jonlin
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: top
+gecos: 林威仲
+title: 工程師
+cn: jonlin
+homeDirectory: /home/jonlin
+
