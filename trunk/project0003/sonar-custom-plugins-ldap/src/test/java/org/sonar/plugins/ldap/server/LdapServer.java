@@ -29,6 +29,10 @@ public class LdapServer extends ExternalResource {
   private final String baseDn;
 
   public LdapServer(String ldifResourceName) {
+	  /**
+	   *  realm = "example.org" 
+	   *  baseDn=  "dc=example,dc=org"
+	   * ****/
     this(ldifResourceName, "example.org", "dc=example,dc=org");
   }
 
