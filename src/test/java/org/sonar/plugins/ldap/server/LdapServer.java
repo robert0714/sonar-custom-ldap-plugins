@@ -21,6 +21,9 @@ package org.sonar.plugins.ldap.server;
 
 import org.junit.rules.ExternalResource;
 
+/**
+ * pseudo ldap server 
+ * ***/
 public class LdapServer extends ExternalResource {
 
   private ApacheDS server;
