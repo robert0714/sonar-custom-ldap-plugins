@@ -139,7 +139,7 @@
  <build>
         <!-- TODO 3: Change SourceDirectory so it fits to your path containing all you sources
         use / (slash) instead of . (dot) if you are using packages. Maybe just "src" could also work fine -->
-        <sourceDirectory>src/my/package</sourceDirectory>
+     <!--    <sourceDirectory>src/my/package</sourceDirectory> -->
         <!-- TODO 3 END -->
         <plugins>
             <plugin>
@@ -177,6 +177,7 @@
             </plugin>
              -->
         </plugins>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <outputDirectory>target/classes</outputDirectory>
     </build>
 </project>
