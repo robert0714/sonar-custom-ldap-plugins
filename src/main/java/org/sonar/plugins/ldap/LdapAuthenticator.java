@@ -65,6 +65,9 @@ public class LdapAuthenticator implements LoginPasswordAuthenticator {
       } else {
         final SearchResult result;
 		try {
+			/**
+			 * 接下程式碼為重要的核心
+			 * **/
 			final LdapUserMapping lum = userMappings.get(ldapKey);
 			final LdapContextFactory lcf = contextFactories.get(ldapKey);
 			final LdapSearch ls = lum.createSearch(lcf, login);
