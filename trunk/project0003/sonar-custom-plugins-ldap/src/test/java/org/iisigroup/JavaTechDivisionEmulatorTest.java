@@ -91,20 +91,20 @@ public class JavaTechDivisionEmulatorTest {
 		final	LoginPasswordAuthenticator loginPasswordAuthenticator = aLdapRealm.getLoginPasswordAuthenticator();
 		
 		
-		boolean logon = loginPasswordAuthenticator.authenticate("robertlee","iisi@222114");
+		boolean logon = loginPasswordAuthenticator.authenticate("1204003@iead.local","iisi@222114");
 		
 		System.out.println(logon);
 		
 		final	ExternalUsersProvider aUsersProvider = aLdapRealm.getUsersProvider();
 		
 		
-		final	UserDetails user = aUsersProvider.doGetUserDetails("robertlee");
+		final	UserDetails user = aUsersProvider.doGetUserDetails("1204003@iead.local");
 		
 		System.out.println(ToStringBuilder.reflectionToString(user));
 		
 		final	ExternalGroupsProvider groupsProvider = aLdapRealm.getGroupsProvider();
 		
-		final	Collection<String> groups = groupsProvider.doGetGroups("robertlee");
+		final	Collection<String> groups = groupsProvider.doGetGroups("1204003@iead.local");
 		
 		if(CollectionUtils.isNotEmpty(groups)){
 			for(String group : groups){
