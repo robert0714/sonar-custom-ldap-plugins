@@ -64,12 +64,17 @@ public class LdapAuthenticator implements LoginPasswordAuthenticator {
         principal = login;
       } else {
         final SearchResult result;
-        try {
-          result = userMappings.get(ldapKey).createSearch(contextFactories.get(ldapKey), login).findUnique();
-        } catch (NamingException e) {
-          LOG.debug("User {} not found in server {}: {}", new Object[] {login, ldapKey, e.getMessage()});
-          continue;
-        }
+		try {
+			final LdapUserMapping lum = userMappings.get(ldapKey);
+			final LdapContextFactory lcf = contextFactories.get(ldapKey);
+			final LdapSearch ls = lum.createSearch(lcf, login);
+					
+			result = ls.findUnique();
+		} catch (NamingException e) {
+			LOG.debug("User {} not found in server {}: {}",
+							new Object[] { login, ldapKey, e.getMessage() });
+			continue;
+		}
         if (result == null) {
           LOG.debug("User {} not found in " + ldapKey, login);
           continue;
