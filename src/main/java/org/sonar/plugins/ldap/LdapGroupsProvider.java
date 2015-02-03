@@ -70,10 +70,12 @@ public class LdapGroupsProvider extends ExternalGroupsProvider {
 
       if (searchResult != null) {
         try {
-          NamingEnumeration<SearchResult> result = groupMappings
-            .get(serverKey)
-            .createSearch(contextFactories.get(serverKey), searchResult).find();
-          groups.addAll(mapGroups(serverKey, result));
+        	final LdapGroupMapping lgm = groupMappings .get(serverKey);
+        	final LdapContextFactory lcf = contextFactories.get(serverKey);
+        	final LdapSearch ls = lgm.createSearch(lcf, searchResult);
+        	 
+        	NamingEnumeration<SearchResult> result = ls.find();
+        	groups.addAll(mapGroups(serverKey, result));
           // if no exceptions occur, we found the user and his groups and mapped his details.
           break;
         } catch (NamingException e) {
