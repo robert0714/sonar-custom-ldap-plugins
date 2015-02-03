@@ -149,7 +149,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <!-- TODO 4: Change path to your PluginClass -->
-                    <pluginClass>my.package.MyWorkingPlugin</pluginClass>
+                    <pluginClass>org.sonar.plugins.ldap.LdapPlugin</pluginClass>
                     <!-- TODO 4 END -->
                 </configuration>
             </plugin>
