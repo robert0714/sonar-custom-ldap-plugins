@@ -98,13 +98,13 @@ public class JavaTechDivisionEmulatorTest {
 		final	ExternalUsersProvider aUsersProvider = aLdapRealm.getUsersProvider();
 		
 		
-		final	UserDetails user = aUsersProvider.doGetUserDetails("1204003@iead.local");
+		final	UserDetails user = aUsersProvider.doGetUserDetails("1204003");
 		
 		System.out.println(ToStringBuilder.reflectionToString(user));
 		
 		final	ExternalGroupsProvider groupsProvider = aLdapRealm.getGroupsProvider();
 		
-		final	Collection<String> groups = groupsProvider.doGetGroups("1204003@iead.local");
+		final	Collection<String> groups = groupsProvider.doGetGroups("1204003");
 		
 		if(CollectionUtils.isNotEmpty(groups)){
 			for(String group : groups){
