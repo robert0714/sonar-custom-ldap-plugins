@@ -47,7 +47,7 @@ public class LdifExporter {
 	public LdifExporter() {
 		try {
 			this.writer = new PrintWriter(new FileOutputStream(
-					"d:\\iisi_tech.ldif"));
+					"sris_ldap.ldif"));
 		} catch (FileNotFoundException fnfe) {
 			fnfe.printStackTrace();
 		}
@@ -57,16 +57,16 @@ public class LdifExporter {
 
 	public static void main(String[] args) {
 		LdifExporter ex = new LdifExporter();// pass argument here
-		ex.export("OU=TDD10,OU=15_TDD00,OU=IE,DC=iead,DC=local");// external handle for exporting to file
+		ex.export("ou=team,dc=ris3");// external handle for exporting to file
 	}
 
 	public void connect() { 
 		 env = new Hashtable<String,String>(11);
 	        env.put(Context.INITIAL_CONTEXT_FACTORY,
 	                "com.sun.jndi.ldap.LdapCtxFactory");
-	        env.put(Context.PROVIDER_URL, "ldap://192.168.2.12:389");
-	        env.put(Context.SECURITY_PRINCIPAL, "1204003@iead.local");
-	        env.put(Context.SECURITY_CREDENTIALS, "iisi@222114");
+	        env.put(Context.PROVIDER_URL, "ldap://192.168.10.20:389");
+	        env.put(Context.SECURITY_PRINCIPAL, "cn=Manager,dc=ris3");
+	        env.put(Context.SECURITY_CREDENTIALS, "ldaproot");
 	        env.put(Context.SECURITY_AUTHENTICATION, "simple");
 		try {
 			this.context = new InitialDirContext(env);
