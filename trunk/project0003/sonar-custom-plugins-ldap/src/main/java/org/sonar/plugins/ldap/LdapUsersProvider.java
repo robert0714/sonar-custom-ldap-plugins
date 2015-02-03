@@ -71,9 +71,15 @@ public class LdapUsersProvider extends ExternalUsersProvider {
     for (String serverKey : userMappings.keySet()) {
       SearchResult searchResult = null;
       try {
-        searchResult = userMappings.get(serverKey).createSearch(contextFactories.get(serverKey), username)
-            .returns(userMappings.get(serverKey).getEmailAttribute(), userMappings.get(serverKey).getRealNameAttribute())
-            .findUnique();
+    	  /**
+			 * 接下程式碼為重要的核心
+			 * **/
+			final LdapUserMapping lum = userMappings.get(serverKey);
+			final LdapContextFactory lcf = contextFactories.get(serverKey);
+			final LdapSearch ls = lum.createSearch(lcf, username);
+			final LdapSearch sr = ls.returns(lum.getEmailAttribute() ,lum.getRealNameAttribute()) ;
+			searchResult = sr  .findUnique();			
+			
       } catch (NamingException e) {
         // just in case if Sonar silently swallowed exception
         LOG.debug(e.getMessage(), e);

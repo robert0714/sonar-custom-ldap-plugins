@@ -70,6 +70,9 @@ public class LdapGroupsProvider extends ExternalGroupsProvider {
 
       if (searchResult != null) {
         try {
+        	/**
+			 * 接下程式碼為重要的核心
+			 * **/
         	final LdapGroupMapping lgm = groupMappings .get(serverKey);
         	final LdapContextFactory lcf = contextFactories.get(serverKey);
         	final LdapSearch ls = lgm.createSearch(lcf, searchResult);
